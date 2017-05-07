@@ -72,7 +72,7 @@ type SgIoHdr struct {
 	Timeout        uint32
 	Flags          uint32
 	PackID         int32
-	Pad0           [4]byte
+	pad0           [4]byte
 	UsrPtr         *byte
 	Status         uint8
 	MaskedStatus   uint8
