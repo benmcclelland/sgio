@@ -13,6 +13,7 @@ const (
 	SG_IO                = 0x2285
 	SG_INFO_OK_MASK      = 0x1
 	SG_INFO_OK           = 0x0
+	SG_DXFER_TO_DEV      = -2
 	SG_DXFER_FROM_DEV    = -3
 	SG_DXFER_TO_FROM_DEV = -4
 	INQ_CMD_CODE         = 0x12
